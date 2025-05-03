@@ -176,9 +176,9 @@ void update(int value) {
     // Goalkeeper movement
     if (!ballKicked || ballZ > 0.5f) {
         if (goalkeeperMovingLeft)
-            goalkeeperX -= 0.02f;
+            goalkeeperX -= 0.08f;
         else
-            goalkeeperX += 0.02f;
+            goalkeeperX += 0.08f;
 
         if (goalkeeperX < -1.5f)
             goalkeeperMovingLeft = false;
